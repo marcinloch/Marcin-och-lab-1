@@ -1,0 +1,49 @@
+<!Doctype <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head> 
+
+<body>
+    <div id="container">
+        <div id="upper">
+            <div id="image_place"><img id="baner" src="photo-editor.png"></div>
+            <div id="tytul">
+                <span id="tytul">Edytor zdjęć</br></span>
+                <span id="tytul2">*wery lajt versjon</br></span>
+            </div>
+        </div>
+
+        <div id="dodaj_fote">
+            <input type="file" id="uploadBannerImage" onchange="readURL(this);" />
+            <p style="padding: 0px;margin:0px;">Podgląd oryginału:</p>
+            <hr>
+            <img src="" alt="" id="bannerImg">
+        </div>
+
+        <div id="content">
+            <canvas id="ps"></canvas>
+            </br>
+            
+        </br>
+            <button id="run">Jaśniej +</button>
+            <button id="ciemno">- Ciemniej</button></br></br>
+            <button id="dodajkontrast">Kontrast +</button>
+            <button id="odejmijkontrast">- Kontrast</button></br></br>
+            <button id="rozmyj">Rozmyj</button></br></br>
+            <button id="sepia">Sepia efekt +</button>
+            <button id="negatyw">Negatyw</button>
+            </br>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+
+</body>
+
+</html>

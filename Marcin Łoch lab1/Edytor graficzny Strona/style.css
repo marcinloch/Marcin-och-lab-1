@@ -1,0 +1,88 @@
+body{
+    margin: auto;
+    padding: 0;
+    background-color: rgb(88, 88, 88);
+}
+div#upper{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: inline-flex;
+    align-content: space-between;
+    flex-direction: row;
+
+}
+div#image_place{
+    width: 50%;
+}
+img#baner{
+    width: 100%;
+}
+div#tytul{
+    width: 50%;
+    padding-top:30px;
+    padding-left: 10px;
+}
+span#tytul{
+    padding-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    background-image: -webkit-gradient(linear,
+				left top, left bottom,
+				from(#fd2121),
+				to(#ad0202));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-weight: 900;
+    margin: 0;
+}
+span#tytul2{
+    padding-left: 10px;
+    padding-top:20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    background-image: -webkit-gradient(linear,
+				left top, left bottom,
+				from(#fd2121),
+				to(#ad0202));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-weight: bold;
+    margin: 0;
+}
+
+div#container{
+    margin: auto;
+    width: auto;
+    padding: 5px;
+}
+div#content{
+    margin: 0;  
+    padding: 0;
+    margin-top: 20px;
+}
+
+canvas#ps{
+    width: 0;
+    height: 0;
+}
+button{
+    width: 100px;
+}
+@media screen  and (min-width:800px){
+    
+    div#container{
+        width: 800px;
+        margin: auto;
+        padding: 0px;
+    }
+    div#image_place{
+        width: 25%;
+    }
+    div#upper{
+        justify-content: center;
+    }
+    div#tytul{
+        width: 25%;
+    }
+}
